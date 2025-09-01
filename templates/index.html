@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Afyatrack | SDG Health</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { background: #f9fafc; color: #333; display: flex; flex-direction: column; min-height: 100vh; }
+    header { background: linear-gradient(135deg, #00bfa6, #00796b); color: white; padding: 3rem 2rem; text-align: center; }
+    header h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+    header p { font-size: 1.2rem; margin-bottom: 1.5rem; }
+    .btn { padding: 1rem 2rem; background: #ff9800; color: white; border: none; border-radius: 25px; cursor: pointer; font-weight: 600; transition: 0.3s; display: inline-block; }
+    .btn:hover { background: #e68900; }
+    section { padding: 3rem 2rem; text-align: center; max-width: 800px; margin: auto; }
+    section h2 { font-size: 1.8rem; margin-bottom: 1rem; color: #00796b; }
+    section p { font-size: 1.1rem; line-height: 1.6; }
+    .features { display: flex; flex-direction: column; gap: 1.5rem; margin-top: 2rem; }
+    .card { background: white; padding: 2rem; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: transform 0.3s; text-align: left; }
+    .card h3 { margin-bottom: 0.5rem; }
+    .card:hover { transform: translateY(-5px); }
+    footer { background: #00796b; color: white; text-align: center; padding: 1.5rem; margin-top: auto; }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Welcome to AfyaTrack</h1>
+    <p>Track. Learn. Stay Healthy. Your digital health companion aligned with SDG 3.</p>
+    <button class="btn" onclick="window.location.href='/auth'">Get Started</button>
+  </header>
+
+  <!-- Problem -->
+  <section>
+    <h2>The Problem</h2>
+    <p>Millions lack easy access to health tracking.</p>
+    <p>Medical records are scattered.</p>
+    <p>Preventive care is limited.</p>
+  </section>
+
+  <!-- Solution -->
+  <section>
+    <h2>Our Solution</h2>
+    <p>Afyatrack empowers you to:</p>
+    <p>✔ Monitor your whole-body health</p>
+    <p>✔ Access and manage medical records</p>
+    <p>✔ Connect with doctors anytime</p>
+  </section>
+
+  <!-- Features -->
+  <section>
+    <h2>Key Features</h2>
+    <div class="features">
+      <div class="card"><h3>📊 Health Dashboard</h3><p>Track vitals, exercise, nutrition, and mental health in one place.</p></div>
+      <div class="card"><h3>🤖 AI Symptom Checker</h3><p>Get instant insights about possible conditions and health tips.</p></div>
+      <div class="card"><h3>💊 Medication Reminders</h3><p>Stay consistent with treatment through timely notifications.</p></div>
+      <div class="card"><h3>🏥 Doctor Connect</h3><p>Link with hospitals and clinics securely for follow-ups.</p></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 AfyaTrack | Empowering Health for All</p>
+  </footer>
+</body>
+</html>
